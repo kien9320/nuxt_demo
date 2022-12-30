@@ -1,0 +1,35 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html .container-fluid {
+  max-width: 1920px;
+}
+
+@font-face {
+  font-family: 'SVN-Gilroy Medium';
+  src: url(@/assets/fonts/SVN-Gilroy-Medium.otf);
+}
+@font-face {
+  font-family: 'SVN-Gilroy Bold';
+  src: url(@/assets/fonts/SVN-Gilroy-Bold.otf);
+}
